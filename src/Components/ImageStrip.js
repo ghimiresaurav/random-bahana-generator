@@ -16,8 +16,8 @@ const ImageStrip = (props) => {
       speed={speeds[props.index % 3]}
     >
       <Stack direction="row" spacing={0.5}>
-        {props.images.map((image) => (
-          <ImageContainer link={image} />
+        {props.images.map((image, index) => (
+          <ImageContainer key={index} link={image} />
         ))}
       </Stack>
     </Marquee>

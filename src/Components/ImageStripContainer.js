@@ -20,7 +20,7 @@ const ImageStripContainer = () => {
   return (
     <Stack spacing={0.5}>
       {images.map((imageList, index) => (
-        <ImageStrip images={imageList} index={index} />
+        <ImageStrip images={imageList} key={index} index={index} />
       ))}
     </Stack>
   );
