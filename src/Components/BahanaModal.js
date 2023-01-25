@@ -13,8 +13,6 @@ const BahanaModal = (props) => {
   };
 
   const explain = () => {
-    setSuccess(false);
-    setTimeout(() => setSuccess(true), 100);
     setShowExplanation(true);
     const audio_success = new Audio("./audios/success.mp3");
     audio_success.play();
