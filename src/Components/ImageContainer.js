@@ -3,13 +3,11 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 
 const ImageContainer = (props) => {
-  //   console.log(props);
   return (
     <Box
       sx={{
-        width: 300,
-        height: 300,
-        // border: "1px solid",
+        width: 213,
+        height: 170,
         // backgroundColor: "primary.dark",
         // "&:hover": {
         //   backgroundColor: "primary.main",
@@ -19,11 +17,9 @@ const ImageContainer = (props) => {
     >
       <Paper
         sx={{
-          //   width: 300,
-          height: 300,
+          height: 170,
           border: "1px solid",
           backgroundImage: `url(${props.link})`,
-          //   backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
       ></Paper>

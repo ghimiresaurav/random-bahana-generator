@@ -1,3 +1,3 @@
-export const MAX_IMAGES_ON_STRIP = 5;
-export const MAX_STRIPS = 3;
-export const images = [[], [], []];
+export const MAX_IMAGES_ON_STRIP = 7;
+export const MAX_STRIPS = 4;
+export const images = [[], [], [], []];

@@ -7,8 +7,9 @@ import { speeds, delays } from "../Data/marquee";
 const ImageStrip = (props) => {
   return (
     <Marquee
+      style={{ overflow: "hidden" }}
       // Alternating direction
-      direction={props.index % 2 == 0 ? "right" : "left"}
+      direction={props.index % 2 === 0 ? "right" : "left"}
       pauseOnClick={true}
       gradient={false}
       delay={delays[props.index % 3]}

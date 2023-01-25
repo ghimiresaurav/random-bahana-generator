@@ -24,3 +24,6 @@ yarn-error.log*
 
 # images
 /public/images/*
+
+#audios
+/public/audios/*
