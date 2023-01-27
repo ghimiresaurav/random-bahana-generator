@@ -10,6 +10,7 @@ const BahanaModal = (props) => {
   const goBack = () => {
     setShowBahanaModal(false);
     setShowExplanation(false);
+    setSuccess(false);
   };
 
   const explain = () => {
